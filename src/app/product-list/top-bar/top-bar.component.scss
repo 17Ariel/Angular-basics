@@ -1,0 +1,27 @@
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1976D2;
+  height: 10vh;
+  color: #fff;
+  gap: 40rem;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  button {
+    cursor: pointer;
+    background-color: #fff;
+    color: #1976D2;
+    padding: 10px 12px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    font-size: 1.04rem;
+  }
+}

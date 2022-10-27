@@ -1,0 +1,31 @@
+.products {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+
+h3 {
+  color: #1976D2;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+button {
+  cursor: pointer;
+  background-color: #fff;
+  color: #1976D2;
+  padding: 10px 12px;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  font-size: 1.04rem;
+  width: 90px;
+}
